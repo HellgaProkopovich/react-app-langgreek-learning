@@ -1,0 +1,29 @@
+.pageNoFoundContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    padding: 75px;
+
+    white-space: nowrap;
+}
+
+.textNoFound {
+    margin: 10px;
+    font-size: x-large;
+    text-decoration: underline dashed var(--colorYellowVivid);
+    text-underline-offset: 5px;
+}
+
+.text404 {
+    color: var(--colorYellowVivid);
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.picMinotaur {
+    padding: 20px;
+    min-width: 250px;
+    max-width: 300px;
+}

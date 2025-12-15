@@ -1,0 +1,42 @@
+.pagePracticeContainer {
+    /* width: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnNext,
+.btnPrev {
+    width: 30px;
+    cursor: pointer;
+}
+
+.cardPractice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 50px 50px;
+
+    background-color: var(--colorWhite);
+    border: 2px dashed var(--colorYellowVivid);
+}
+
+.btnCheck,
+.wordTranslated {
+    margin-top: 50px;
+    padding: 10px 20px;
+}

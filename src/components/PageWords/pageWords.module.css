@@ -1,0 +1,75 @@
+/* div {
+    border: 1px solid blue;
+}
+
+label,
+input {
+    border: 1px sold red;
+} */
+
+.wordsListContainer {
+    /* width: 100%; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.wordsTable {
+    width: 75%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formAddWordRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 60px;
+    background-color: var(--colorWhite);
+    border-radius: 20px;
+}
+
+.formAddWordCell {
+    font-family: inherit;
+    font-size: 14px;
+    background-color: transparent;
+
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+}
+
+.wordRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 60px;
+
+    border: 1px dashed var(--colorYellowVivid);
+    border-radius: 20px;
+}
+
+.wordRow:hover {
+    background-color: var(--colorYellowLight);
+}
+
+.wordCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    /* border: 1px solid grey; */
+}
+
+.icontable {
+    width: 20px;
+    padding: 3px;
+    cursor: pointer;
+}

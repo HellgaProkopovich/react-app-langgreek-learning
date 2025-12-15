@@ -1,0 +1,9 @@
+:root {
+    --colorWhite: white;
+    --colorGreyLight: rgb(243, 243, 243);
+    --colorGreyDark: rgb(202, 202, 202);
+    --colorYellowLight: rgb(255, 244, 184);
+    --colorYellowVivid: rgb(255, 196, 0);
+
+    --colorMainFont: #242424;
+}

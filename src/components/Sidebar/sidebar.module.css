@@ -1,0 +1,67 @@
+.sidebar {
+    /* border: 1px solid blue; */
+
+    position: fixed; /* Закрепляет меню на экране */
+    top: 0; /* Привязка к верхней границе */
+    left: 0; /* Привязка к левой границе */
+    width: 180px;
+    /* height: 100vh; */
+    /* height: 100dhv; */
+    /* height: (100vh - 30px); */
+    height: 80%;
+    /* ВЫСОТА НЕ РАБОТАЕТ */
+    z-index: 1000; /* Чтобы меню было поверх основного контента */
+    overflow-y: auto; /* Если контента будет много, добавляет скроллинг */
+
+    /* box-sizing: border-box; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    margin: 30px;
+
+    border-radius: 30px;
+
+    background-color: var(--colorWhite);
+    list-style-type: none;
+    white-space: nowrap;
+
+    /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--colorMainFont);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.logopic {
+    width: 45px;
+    padding-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--colorMainFont);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: var(--colorGreyLight);
+}
+
+.icon {
+    width: 30px;
+    padding-right: 10px;
+}
