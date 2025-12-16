@@ -5,8 +5,8 @@ import PageWords from './components/PageWords/PageWords';
 import PagePractice from './components/PagePractice/PagePractice';
 import PageNoFound from './components/PageNoFound/PageNoFound';
 
-import './App.css';
-import './variables.css';
+import './styles/App.css';
+import './styles/variables.css';
 
 function App() {
   return (

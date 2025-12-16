@@ -1,5 +1,5 @@
 // import { useState, useEffect, useRef } from 'react';
-// import wordsList from '../words.js';
+// import words from '../../data/words.js';
 
 // import btnNext from '../../assets/arrow_right.svg';
 // import btnPrev from '../../assets/arrow_left.svg';
