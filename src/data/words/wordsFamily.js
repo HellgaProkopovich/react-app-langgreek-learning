@@ -301,16 +301,6 @@ export const wordsFamily = [
     },
 
     {
-        id: "el_family_be",
-        term: { greek: "είμαι", english: "to be" },
-        pos: "verb",
-        topic: ["family", "verbs"],
-        examples: [
-        { greek: "Είμαι παντρεμένος.", english: "I am married." }
-        ]
-    },
-
-    {
         id: "el_family_single",
         term: { greek: "ελεύθερος-η", english: "single" },
         pos: "adjective",
@@ -322,7 +312,7 @@ export const wordsFamily = [
 
     {
         id: "el_family_married",
-        term: { greek: "παντρεμένος-η", english: "married (to)", },
+        term: { greek: "παντρεμένος-η (με)", english: "married (to)", },
         pos: "adjective",
         topic: ["family", "adjectives"],
         examples: [

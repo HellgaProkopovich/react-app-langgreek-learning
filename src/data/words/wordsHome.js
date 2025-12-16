@@ -2,7 +2,7 @@ export const wordsHome = [
     // ΣΠΙΤΙ ΜΟΥ ΣΠΙΤΑΚΙ ΜΟΥ = HOME SWEET HOME
     {
         id: "el_home_advertisement",
-        term: { greek: "αγγελία", english: "advertisement / listing" },
+        term: { greek: "η αγγελία", english: "advertisement" },
         pos: "noun",
         topic: ["home"],
         examples: [
@@ -32,7 +32,7 @@ export const wordsHome = [
 
     {
         id: "el_home_for_rent",
-        term: { greek: "ενοικιάζεται", english: "for rent" },
+        term: { greek: "ενοικιάζεται", english: "for rent / сдаётся" },
         pos: "verb",
         topic: ["home", "verbs"],
         examples: [
@@ -42,7 +42,7 @@ export const wordsHome = [
 
     {
         id: "el_home_for_sale",
-        term: { greek: "πωλείται", english: "for sale" },
+        term: { greek: "πωλείται", english: "for sale / продаётся" },
         pos: "verb",
         topic: ["home", "verbs"],
         examples: [
